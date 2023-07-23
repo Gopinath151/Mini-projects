@@ -4,7 +4,7 @@ from openpyxl import styles
 
 # making Connection
 My_DB = mysql.connector.connect(
-    host="127.0.0.1", user="root", password="Egopi@151", database="employee")
+    host="127.0.0.1", user="root", password="******", database="employee")
 
 workbook = openpyxl.Workbook()
 worksheet = workbook.active
